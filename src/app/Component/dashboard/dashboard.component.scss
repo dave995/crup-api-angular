@@ -22,11 +22,15 @@
 .card{
   padding-left: 20px;
 }
-.card-deck{
+.card-deck {
   // padding-top: 4%;
   // display: flex;
   margin-left: 0;
   margin-right: 0;
+  
+}
+.card-deck img{
+  width: 250px;
   
 }
 // .card-one{
@@ -170,7 +174,7 @@ a.mdc-list-item:hover {
 }
 
 .logout-item{
-  margin-top: 20%;
+  margin-top: 5%;
 
 }
 h6{
