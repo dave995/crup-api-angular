@@ -46,44 +46,20 @@
               <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn " type="submit"><i class="fa-regular fa-bell"></i></button>
-              </form>
-         
+              </form>   
           </nav>
-        </div>
-        
+        </div>      
       </mat-toolbar>
-
 <div class="icon-vs-btn">
   <div class="sort-icon">
     <img src="./../../../assets/icon/sort 1.png" alt="">
   </div>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
+<div class="bouton-modal"> 
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Add utilisateur
+  </button>
 </div>
 </div>   
-
-
-
 <table class="table table-striped">
     <thead>
       <tr >
@@ -92,6 +68,7 @@
         <th scope="col">Username</th>
         <th scope="col">email</th>
         <th scope="col">action</th>
+        <th scope="col">Date</th>
       </tr>
     </thead>
     <tbody>
@@ -107,12 +84,49 @@
         <td>
             <button class="icon-orange"><i class="fa-sharp fa-solid fa-pen"></i></button>
             &ensp; &ensp;&ensp; &ensp;
-            <button class="icon-orange"><i class="fa-sharp fa-solid fa-trash"></i></button>
+            <button  class="icon-orange"><i class="fa-sharp fa-solid fa-trash"></i></button>
+            <!-- (click)="onDelete()" -->
         </td>
       </tr>
-   
     </tbody>
   </table>
+  <app-add-utilisateur></app-add-utilisateur>
+  <!-- <div class="col-sm-12 col-md-4 mt-5">
+    <div class="card border-0 shadow p-3">
+        <div class="form-floating mb-3 tetx-center">
+            <h5 class="text-center text-warning">Ajouter utilisateur</h5>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="firstName" name="firstname"
+               >
+            <label for="name"> name</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="Name" name="Name"
+               >
+            <label for="lastName">username</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="email" name="email"
+              >
+            <label for="email">Email </label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="mobile" name="action"
+             >
+            <label for="mobile">action</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="mobile" name="date"
+           >
+          <label for="mobile">Date</label>
+      </div>
+        <button type="button" class="btn btn-outline-success" >Add
+            utilisateur</button>
+    </div>
+</div> -->
+
+
       <!-- <router-outlet></router-outlet> -->
       <!-- Add Content Here -->
       <!-- <app-dashboard></app-dashboard> -->
