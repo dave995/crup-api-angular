@@ -1,0 +1,118 @@
+{
+  "payment": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "payment": "first",
+      "phone": "781120394",
+      "date" : "31-12-2022",
+      "amount" :" INR 35000",
+      "balance" : "INR59000"
+    },
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "payment": "first",
+      "phone": "781120394",
+      "date" : "31-12-2022",
+      "amount" :" INR 35000",
+      "balance" : "INR59000"
+    },
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "payment": "first",
+      "phone": "781120394",
+      "date" : "31-12-2022",
+      "amount" :" INR 35000",
+      "balance" : "INR59000"
+    },
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "payment": "first",
+      "phone": "781120394",
+      "date" : "31-12-2022",
+      "amount" :" INR 35000",
+      "balance" : "INR59000"
+    },
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "payment": "first",
+      "phone": "781120394",
+      "date" : "31-12-2022",
+      "amount" :" INR 35000",
+      "balance" : "INR59000"
+    },
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "payment": "first",
+      "phone": "781120394",
+      "date" : "31-12-2022",
+      "amount" :" INR 35000",
+      "balance" : "INR59000"
+    }
+
+  ],
+ 
+  "utilisateur": [
+    {
+    "id":1,
+    "name": "typicode",
+    "email": "kart@gmail.com",
+    "phone": "781120394",
+    "number": "62987070918",
+    "date": "31-12-2022"
+  },
+  {
+    "id":1,
+    "name": "typicode",
+    "email": "kart@gmail.com",
+    "phone": "781120394",
+    "number": "62987070918",
+    "date": "31-12-2022"
+  },
+  {
+    "id":1,
+    "name": "typicode",
+    "email": "kart@gmail.com",
+    "phone": "781120394",
+    "number": "62987070918",
+    "date": "31-12-2022"
+  },
+  {
+    "id":1,
+    "name": "typicode",
+    "email": "kart@gmail.com",
+    "phone": "781120394",
+    "number": "62987070918",
+    "date": "31-12-2022"
+  },
+  {
+    "id":1,
+    "name": "typicode",
+    "email": "kart@gmail.com",
+    "phone": "781120394",
+    "number": "62987070918",
+    "date": "31-12-2022"
+  },
+  {
+    "id":1,
+    "name": "typicode",
+    "email": "kart@gmail.com",
+    "phone": "781120394",
+    "number": "62987070918",
+    "date": "31-12-2022"
+  },
+  {
+    "id":1,
+    "name": "typicode",
+    "email": "kart@gmail.com",
+    "phone": "781120394",
+    "number": "62987070918",
+    "date": "31-12-2022"
+  }
+]
+}

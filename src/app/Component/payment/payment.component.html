@@ -72,32 +72,16 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-               
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>
-              <tr  class="thead-light">
-                
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-              </tr>
-              <tr>
-               
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
+              <tr *ngFor="let payment of listsPayment">
+                <td>{{payment.name}}</td>
+                <td>{{payment.payment}}</td>
+                <td>{{payment.phone}}</td>
+                <td>{{payment.amount}}</td>
+                <td>{{payment.balance}}</td>
+                <td>{{payment.date}}</td>
+                <td>
+                  <button class="icon-orange"><i class="fa-solid fa-eye-slash"></i></button>
+              </td>
               </tr>
             </tbody>
           </table>
