@@ -1,0 +1,72 @@
+body {font-family: Arial, Helvetica, sans-serif;
+    background-color: #FEAF00;
+}
+.global{
+    background-color: #FEAF00;
+    width: 100%;
+    height: 100vh;
+}
+.login{
+    padding-top:10%;
+    border-radius: 10px;
+}
+.title-login img{
+  width: 350px;
+  padding: 50px;
+}
+.sign h4{
+    font-style: Montserrat;
+    font-weight: 600;
+    size: 22px;
+    line-height: 26.82px;
+    text-align: center;
+}
+.sign p{
+    font-style: Montserrat;
+    font-weight: 400;
+    color: #6C6C6C;
+    size: 22px;
+    line-height: 26.82px;
+    text-align: center;
+}
+button {
+    background-color: #FEAF00;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+   background-color: red;
+  }
+  .forgot{
+    padding: 30px;
+    text-align: center;
+  }
+  .text-gris{
+    color: 
+    #6C6C6C;
+    font-weight: 500;
+    size: 14px;
+  }
+  .input{
+    border: 1px solid #E5E5E5;
+    height: 71px;
+  }
+  
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+// @media screen and (max-width: 300px) {
+//   span.psw {
+//      display: block;
+//      float: none;
+//   }
+//   .cancelbtn {
+//      width: 100%;
+//   }
+// }

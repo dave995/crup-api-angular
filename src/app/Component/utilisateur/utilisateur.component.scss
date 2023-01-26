@@ -1,0 +1,223 @@
+.bouton-modal{
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    margin-right: 30px;
+   
+   
+}
+.sort-icon{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 17%;
+}
+.sort-icon img{
+  margin-bottom : -4%;
+}
+.new-bouton-col{
+  font-weight: 500;
+  font-size: 14px;
+  font-family: Montserrat;
+  line-height: 17.07px;
+  color: #fff;
+  width: 199px;
+  height: 44px;
+}
+.btn-primary {
+    background-color: #FEAF00;
+    font-weight: 199x;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    height: 50px;
+}
+.icon-orange{
+    color: #FEAF00;
+    border: none;
+}
+.profil-img{
+    width: 40px;
+}
+
+table{
+  padding: 70px;
+}
+// 
+.grid-container {
+    margin: 20px;
+  }
+  
+  .dashboard-card {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+  }
+  
+  .more-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  
+  .dashboard-card-content {
+    text-align: center;
+  }
+  .card{
+    padding-left: 20px;
+  }
+  .card-deck{
+    padding-top: 4%;
+    display: flex;
+    
+  }
+  .card-one{
+    
+    width: 305px;
+  height: 157px;  
+    background-color: #F0F9FF;
+    padding-left: 20px;
+  }
+  .card-two{
+    background-color: #FEF6FB;
+    width: 305px;
+  height: 157px;
+  }
+  .card-tree{
+    background-color: #FEFBEC;
+    width: 305px;
+  height: 157px;
+  }
+  .card-four{
+    background-color: #FEAF00;
+    width: 305px;
+  height: 157px;
+  }
+  .img--pr img{
+    color: black;
+  }
+  .img--pr img{
+    padding: 15px;
+  }
+  .card-text{
+    
+    font-weight: 700;
+    font-size: 30px;
+    text-align: right;
+  }
+  
+  // 
+  
+  
+  .sidenav-container {
+    height: 100%;
+  
+    
+  }
+  
+  .sidenav {
+    width: 250px;
+    background-color: #F2EAE1;
+  }
+  
+  .sidenav .mat-toolbar {
+    background: inherit;
+  }
+  .logo--profil img{
+    position: relative;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    padding: 25px;
+   
+  }
+  .profil--name h4{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20.72px;
+    padding-left: 35px;
+  
+  }
+  a.mdc-list-item {
+    color: inherit;
+    text-decoration: none;
+    padding-left: 50px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.07px;
+  }
+  a.mdc-list-item:hover {
+    color: inherit;
+    text-decoration: none;
+    padding-left: 50px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17.07px;
+    background-color: #FEAF00;
+  }
+  .mat-nav-list {
+    padding-left: 50px;
+  }
+  .name p{
+    color: #FEAF00;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20.72px;
+    padding-left: 55px;
+  }
+  
+  .mat-toolbar.mat-primary {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .mat-drawer-inner-container {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  
+  }
+  .mat-toolbar.mat-primary {
+    background: white;
+    color: #fff;
+  }
+  .sidebar-right{
+    float: right;
+  }
+  .nav-brainds-icon{
+    display: flex;
+    margin-left: 800px;
+    justify-content: flex-end;
+  }
+  .title--name h2{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20;
+    line-height: 24.38px;
+    border-left: 8px solid #FEAF00;
+  }
+  .btn{
+    color: black;
+  }
+  .logout-item{
+    margin-top: 34%;
+  }
+  h6{
+    font-weight: 500;
+    color: #F2EAE1;
+  }
+  .profil-title-lmgs img{
+    width: 200px
+  }
+  .etudiant{
+    font-family: Montserrat;
+    font-weight: 500;
+    size: 14px;
+    line-height: 17.07px;
+    padding-left: 13px;
+  }

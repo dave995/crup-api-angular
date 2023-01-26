@@ -1,0 +1,110 @@
+<mat-sidenav-container class="sidenav-container">
+    <mat-sidenav #drawer class="sidenav" fixedInViewport
+        [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+        [mode]="(isHandset$ | async) ? 'over' : 'side'"
+        [opened]="(isHandset$ | async) === false">
+      <mat-toolbar>
+        <div class="title--name">
+           <h2>CRUD OPERATIONS</h2>
+        </div>
+         </mat-toolbar>
+         <div class="logo--profil">
+            <img src="./../../../assets/pexels-photo-2379004 1.png" class="image" alt="">
+            <div class="profil--name">
+              <h4>karthil madesh</h4>
+               <div class="name">
+                  <p>ADMIN</p>
+               </div>
+            </div>
+         </div>
+      <mat-nav-list side-item>
+        <a mat-list-item href="#" [routerLink]="['/dashboard']"><i class="fa-sharp fa-solid fa-house"></i>
+          <span  class="etudiant">Home</span> </a>
+      
+        <a mat-list-item href="#" [routerLink]="['/utilisateur']"><i class="fas fa-graduation-cap"></i> <span class="etudiant">Student</span> </a>
+      
+        <a mat-list-item href="#" [routerLink]="['/payment']"><i class="fa-solid fa-dollar-sign"></i> <span class="etudiant">Payment</span> </a>
+     
+        <a mat-list-item href="#"><i class="fa-regular fa-file"></i><span class="etudiant">Report</span> </a>
+     
+        <a mat-list-item href="#"><i class="fa-regular fa-gear"></i><span class="etudiant">Settings</span> </a>
+        
+        <div class="logout-item">
+          <a mat-list-item href="#"><i class="fa-sharp fa-solid fa-right-to-bracket"></i> <span class="etudiant">Logout</span> </a>
+        </div>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <mat-toolbar color="primary">
+        <button
+          type="button"
+          aria-label="Toggle sidenav"
+          mat-icon-button
+          (click)="drawer.toggle()"
+          *ngIf="isHandset$ | async">
+          <mat-icon aria-label="Side nav toggle icon"></mat-icon>
+        </button>
+        <div class="nav-brainds-icon">
+          <nav class="navbar bg-body-tertiary d-flex">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn " type="submit"><i class="fa-regular fa-bell"></i></button>
+              </form>
+         
+          </nav>
+        </div>
+        
+      </mat-toolbar>
+      <!-- <router-outlet></router-outlet> -->
+      <!-- Add Content Here -->
+      <!-- <app-dashboard></app-dashboard> -->
+      <div class="table-global">
+        <table class="table">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Payment</th>
+                <th scope="col">Numero</th>
+                <th scope="col">Amound Paid</th>
+                <th scope="col">Balance amount </th>
+                <th scope="col">Date</th>
+              
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+               
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr  class="thead-light">
+                
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+               
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+   
+      
+    
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  

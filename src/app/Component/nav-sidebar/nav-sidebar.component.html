@@ -1,0 +1,57 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+    <mat-toolbar>
+      <div class="title--name">
+         <h2>CRUD OPERATIONS</h2>
+      </div>
+       </mat-toolbar>
+       <div class="logo--profil">
+          <img src="./../../../assets/pexels-photo-2379004 1.png" class="image" alt="">
+          <div class="profil--name">
+            <h4>karthil madesh</h4>
+             <div class="name">
+                <p>ADMIN</p>
+             </div>
+          </div>
+       </div>
+    <mat-nav-list side-item>
+      <a mat-list-item href="#" [routerLink]="['./dashboard']"><i class="fa-sharp fa-solid fa-house"></i>
+         Home</a>
+      <a mat-list-item href="#" [routerLink]="['./utilisateur']"><i class="fas fa-graduation-cap"></i> &ensp; &ensp;&ensp; &ensp;Student</a>
+      <a mat-list-item href="#" [routerLink]="['./payment']"><i class="fa-solid fa-dollar-sign"></i> &ensp; &ensp;&ensp; &ensp;Payment</a>
+      <a mat-list-item href="#"><i class="fa-regular fa-file"></i> &ensp; &ensp;&ensp; &ensp;Report</a>
+      <a mat-list-item href="#"><i class="fa-regular fa-gear"></i> &ensp; &ensp;&ensp; &ensp;Settings</a>
+      <div class="logout-item">
+        <a mat-list-item href="#"><i class="fa-duotone fa-right-to-bracket"></i>&ensp; &ensp;&ensp; &ensp;Logout</a>
+      </div>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <div class="nav-brainds-icon">
+        <nav class="navbar bg-body-tertiary d-flex">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn " type="submit"><i class="fa-regular fa-bell"></i></button>
+            </form>
+       
+        </nav>
+      </div>
+      
+    </mat-toolbar>
+    <!-- <router-outlet></router-outlet> -->
+    <!-- Add Content Here -->
+    <!-- <app-dashboard></app-dashboard> -->
+  </mat-sidenav-content>
+</mat-sidenav-container>

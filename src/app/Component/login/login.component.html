@@ -1,0 +1,48 @@
+<div class="global">
+    <div class="container-fluid login">
+        <div class="row col-sm-12 mt-5">
+            <div class="col"></div>
+            <div class=" col=sm-12 col-md-4">
+                <div class="card shadow">
+                    <div class=" card-body">
+                        <div class="title-login">
+                            <img src="./../../../assets/Logo.png">
+                        </div>
+                        <div class="sign"><h4>SIGN IN</h4>
+                         <div class="paragraph">
+                            <p>Enter your credentials to access your account</p>
+                        </div>
+                        </div>
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email</label>
+                              <input type="email" class="form-control" name="email" [(ngModel)]="email">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" name="password" [(ngModel)]="password">
+                            </div>
+                            <button   class="mb-3" type="button" class="btn btn-info" (click)="login()">Login</button>
+                            <div class="row">
+                                <div class="col-md-12 forgot">
+                                    <a routerLink="/logout"  style="text-decoration: none;"><span class="text-gris">forgot your password?</span>  <span class="text-warning">Reset your password</span></a>
+                                </div>
+                  
+                            </div>
+                            <div class="row mt-2">
+                                <a  style="text-decoration: none;cursor: pointer;">
+                                    <!-- <div class="card shadow text-center">
+                                        <div class="card-body">
+                                            <img src="../../../assets/icons8-google-48.png" alt="" height="24px" width="24px"> Sign In with Google
+                                        </div>
+                                    </div> -->
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+</div>
