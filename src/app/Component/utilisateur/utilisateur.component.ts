@@ -23,20 +23,6 @@ export class UtilisateurComponent implements OnInit {
  
 
   liststudent: Etudiant[] = []
-
-  // objetStudent : Etudiant = {
-  //     id:"",
-  //     photo: "",
-  //     name:"",
-  //     email:"",
-  //     phone:"",
-  //     EnrollNumber:"",
-  //     deleteAdmission: ""
-  // };
-  
-    // onDelete(){
-    //   this.http.delete('https://jsonplaceholder.typicode.com/users/'+this.onDelete);
-    // }
   
   
   constructor( private servicesEtudient : ServiceService, private breakpointObserver: BreakpointObserver, private http : HttpClient) {}
@@ -47,16 +33,14 @@ export class UtilisateurComponent implements OnInit {
       }
     })
 
-    // id=""
-    // photo= ""
-    // name=""
-    // email=""
-    // phone=""
-    // EnrollNumber=""
-    // deleteAdmission= ""
+   
+  }
 
-    // onDelete(id){
-    //   this.http.delete('https://jsonplaceholder.typicode.com/users/'+id);
-    // }
+  deleteStudent( etudiant : Etudiant){
+    if(window.confirm('Etes vous sures  de vouloir supprimer etudiant : '+etudiant.name+ "?"))
+    this.servicesEtudient.deleteStudent(etudiant.id).subscribe((result)=>{
+      console.log(result)
+    })
+    this.ngOnInit()
   }
 }

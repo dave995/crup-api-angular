@@ -37,7 +37,7 @@ export class AddUtilisateurComponent {
     ngOnit(): void {}
 
     savedata(){
-      if (this.name =='' || this.email == '' || this.phone == '' || this.username == '' || this.date == '' ) {
+      if (this.name =='' || this.email == '' || this.username == '' || this.date == '' ) {
         alert('veuiller saisir tout les champs')
         return;
       }
@@ -45,12 +45,13 @@ export class AddUtilisateurComponent {
       this.objetEtudiant.name = this.name
       this.objetEtudiant.email = this.email
       this.objetEtudiant.username = this.username
-      this.objetEtudiant.number = this.number
       this.objetEtudiant.date = this.date
+
 
       this.servicesEtudient.saveEtudiant(this.objetEtudiant).subscribe((result)=>{
 
       })
     }
+
   
 }
