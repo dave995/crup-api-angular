@@ -62,6 +62,7 @@ export class EditUtilisateurComponent {
     this.objetEtudiant.phone = this.phone
     this.objetEtudiant.number = this.number
     this.objetEtudiant.date = this.date
+    this.objetEtudiant.username = this.username
 
     this.servicesEtudient.getStudentupdate(idee,this.objetEtudiant).subscribe((result)=>{
       //console.log(result)

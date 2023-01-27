@@ -17,13 +17,31 @@ export class ServiceService {
   getStudents():Observable<Etudiant[]>{
     return this.http.get<Etudiant[]>(this.STUDENT_API_URL)
   }
+  
+  saveEtudiant( data :any){
+
+    return this.http.post(this.STUDENT_API_URL,data)
+  }
+
+  // onDelete(){
+  //   this.http.delete('https://jsonplaceholder.typicode.com/users/'+this.onDelete);
+  // }
+
+  deleteStudent(id : any) {
+  return this.http.delete( `${this.STUDENT_API_URL}/${id}` )
+}
+
+getStudentbyId(id : any){
+  return this.http.get(`${this.STUDENT_API_URL}/${id}` )
+}
+
+getStudentupdate(id: any , data : any){
+    return this.http.put(`${this.STUDENT_API_URL}/${id}`,data)
+}
 
   getpayment():Observable<Payment[]>{
     return this.http.get<Payment[]>(this.Payment_API_URL)
   }
-//    // delete student
-//    deleteStudents(etudiant : Etudiant) {
-//     this.http.delete('/Etudiant/'+etudiant.id).delete();
-//  }
+
  
 }

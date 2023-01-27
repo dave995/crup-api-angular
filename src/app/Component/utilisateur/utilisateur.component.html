@@ -23,7 +23,7 @@
         <a mat-list-item href="#" [routerLink]="['/dashboard']"><i class="fa-sharp fa-solid fa-house"></i>
            Home</a>
         <a mat-list-item href="#" [routerLink]="['/utilisateur']"><i class="fas fa-graduation-cap"></i><span class="etudiant">Student</span> </a>
-        <a mat-list-item href="#" [routerLink]="['./payment']"><i class="fa-solid fa-dollar-sign"></i> <span class="etudiant"> Payment</span> </a>
+        <a mat-list-item href="#" [routerLink]="['/payment']"><i class="fa-solid fa-dollar-sign"></i> <span class="etudiant"> Payment</span> </a>
         <a mat-list-item href="#"><i class="fa-regular fa-file"></i><span class="etudiant"> Report</span></a>
         <a mat-list-item href="#"><i class="fa-regular fa-gear"></i><span class="etudiant">Settings</span> </a>
         <div class="logout-item">
@@ -73,7 +73,7 @@
         <td>
             {{etudiant.name}}</td>
         <td>{{etudiant.email}}</td>
-        <td>{{etudiant.phone}}</td>
+        <td>{{etudiant.username}}</td>
         <td>{{etudiant.number}}</td>
         <td>{{etudiant.date}}</td>
         <td>

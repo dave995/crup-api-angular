@@ -27,7 +27,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { environment } from 'src/environments/environment.prod';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { AngularFireModule } from '@angular/fire/compat';
-import { PaymentComponent } from './component/payment/payment.component';
+import { PaymentComponent } from 'src/app/Component/payment/payment.component';
+import { AddUtilisateurComponent } from 'src/app/Component/utilisateur/add-utilisateur/add-utilisateur.component';
+import { EditUtilisateurComponent } from 'src/app/Component/utilisateur/edit-utilisateur/edit-utilisateur.component'
 
 @NgModule({
   declarations: [
@@ -39,7 +41,10 @@ import { PaymentComponent } from './component/payment/payment.component';
     LoginComponent,
     LogoutComponent,
     UtilisateurComponent,
-    PaymentComponent
+    PaymentComponent,
+    AddUtilisateurComponent,
+    EditUtilisateurComponent,
+   
   ],
   imports: [
     HttpClientModule,

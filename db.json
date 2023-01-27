@@ -5,114 +5,83 @@
       "name": "Leanne Graham",
       "payment": "first",
       "phone": "781120394",
-      "date" : "31-12-2022",
-      "amount" :" INR 35000",
-      "balance" : "INR59000"
+      "date": "31-12-2022",
+      "amount": " INR 35000",
+      "balance": "INR59000"
     },
     {
       "id": 1,
       "name": "Leanne Graham",
       "payment": "first",
       "phone": "781120394",
-      "date" : "31-12-2022",
-      "amount" :" INR 35000",
-      "balance" : "INR59000"
+      "date": "31-12-2022",
+      "amount": " INR 35000",
+      "balance": "INR59000"
     },
     {
       "id": 1,
       "name": "Leanne Graham",
       "payment": "first",
       "phone": "781120394",
-      "date" : "31-12-2022",
-      "amount" :" INR 35000",
-      "balance" : "INR59000"
+      "date": "31-12-2022",
+      "amount": " INR 35000",
+      "balance": "INR59000"
     },
     {
       "id": 1,
       "name": "Leanne Graham",
       "payment": "first",
       "phone": "781120394",
-      "date" : "31-12-2022",
-      "amount" :" INR 35000",
-      "balance" : "INR59000"
+      "date": "31-12-2022",
+      "amount": " INR 35000",
+      "balance": "INR59000"
     },
     {
       "id": 1,
       "name": "Leanne Graham",
       "payment": "first",
       "phone": "781120394",
-      "date" : "31-12-2022",
-      "amount" :" INR 35000",
-      "balance" : "INR59000"
+      "date": "31-12-2022",
+      "amount": " INR 35000",
+      "balance": "INR59000"
     },
     {
       "id": 1,
       "name": "Leanne Graham",
       "payment": "first",
       "phone": "781120394",
-      "date" : "31-12-2022",
-      "amount" :" INR 35000",
-      "balance" : "INR59000"
+      "date": "31-12-2022",
+      "amount": " INR 35000",
+      "balance": "INR59000"
     }
-
   ],
- 
   "utilisateur": [
     {
-    "id":1,
-    "name": "typicode",
-    "email": "kart@gmail.com",
-    "phone": "781120394",
-    "number": "62987070918",
-    "date": "31-12-2022"
-  },
-  {
-    "id":1,
-    "name": "typicode",
-    "email": "kart@gmail.com",
-    "phone": "781120394",
-    "number": "62987070918",
-    "date": "31-12-2022"
-  },
-  {
-    "id":1,
-    "name": "typicode",
-    "email": "kart@gmail.com",
-    "phone": "781120394",
-    "number": "62987070918",
-    "date": "31-12-2022"
-  },
-  {
-    "id":1,
-    "name": "typicode",
-    "email": "kart@gmail.com",
-    "phone": "781120394",
-    "number": "62987070918",
-    "date": "31-12-2022"
-  },
-  {
-    "id":1,
-    "name": "typicode",
-    "email": "kart@gmail.com",
-    "phone": "781120394",
-    "number": "62987070918",
-    "date": "31-12-2022"
-  },
-  {
-    "id":1,
-    "name": "typicode",
-    "email": "kart@gmail.com",
-    "phone": "781120394",
-    "number": "62987070918",
-    "date": "31-12-2022"
-  },
-  {
-    "id":1,
-    "name": "typicode",
-    "email": "kart@gmail.com",
-    "phone": "781120394",
-    "number": "62987070918",
-    "date": "31-12-2022"
-  }
-]
+      "id": 9,
+      "name": "ablaye",
+      "email": "daoudathiam95@gmail.com",
+      "phone": "",
+      "number": "781102332",
+      "date": "02-12-2123",
+      "username": "thiam"
+    },
+    {
+      "id": 10,
+      "name": "daouda",
+      "email": "nawa70927@gmail.com",
+      "phone": "",
+      "number": "781103232",
+      "date": "09-12-1233",
+      "username": "thiam"
+    },
+    {
+      "id": 11,
+      "name": "pascal",
+      "email": "pascall-corea@gmail/com",
+      "phone": "",
+      "number": "781229321",
+      "date": "09-12-2021",
+      "username": "correa"
+    }
+  ]
 }

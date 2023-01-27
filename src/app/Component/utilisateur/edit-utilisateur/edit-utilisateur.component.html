@@ -1,39 +1,47 @@
-<p>Modififier utilisateur</p>
-
-<div class="bouton-retour" [routerLink]="['/utilisateur']">
-    <button class="btn btn-warning">Retourner utilisateur</button>
-</div>
-<div class="col-sm-12 col-md-4 mt-5">
-    <div class="card border-0 shadow p-3">
-        <div class="form-floating mb-3 tetx-center">
-            <h5 class="text-center text-warning">Ajouter utilisateur</h5>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-sm-12 col-md-4 mt-5">
+        <div class="card border-0 shadow p-3">
+            <div class="form-floating mb-3 tetx-center">
+                <h5 class="text-center text-warning"><i class="fa-sharp fa-solid fa-right-to-bracket"></i>Ajouter utilisateur</h5>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="firstName" name="name"
+                [(ngModel)]="name">
+                <label for="name"> name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="Name" name="username"
+                [(ngModel)]="username">
+                <label for="lastName">username</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" name="email"
+                [(ngModel)]="email" >
+                <label for="email">Email </label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="mobile" name="number"
+                [(ngModel)]="number">
+                <label for="mobile">Number</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="mobile" name="date"
+              [(ngModel)]="date">
+              <label for="mobile">Date</label>
+          </div>
+            <button type="button" class="btn btn-outline-success button-add" (click)="dataUpdate()">Add
+                utilisateur</button>
         </div>
-        <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="firstName" name="name"
-            [(ngModel)]="name">
-            <label for="name"> name</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="Name" name="username"
-            [(ngModel)]="username">
-            <label for="lastName">username</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="email" name="email"
-            [(ngModel)]="email" >
-            <label for="email">Email </label>
-        </div>
-        <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="mobile" name="number"
-            [(ngModel)]="number">
-            <label for="mobile">Number</label>
-        </div>
-        <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="mobile" name="date"
-          [(ngModel)]="date">
-          <label for="mobile">Date</label>
-      </div>
-        <button type="button" class="btn btn-outline-success" (click)="dataUpdate()">Add
-            utilisateur</button>
     </div>
+    
+    <div class="bouton-retour" [routerLink]="['/utilisateur']">
+        <button class="btn btn-warning"><i class="fa-sharp fa-solid fa-right-to-bracket"></i>Retourner utilisateur</button>
+    </div>
+    <div class="col-md-4"></div>
 </div>
+
+
+
+   
+
