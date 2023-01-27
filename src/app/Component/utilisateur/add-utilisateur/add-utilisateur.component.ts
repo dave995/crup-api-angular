@@ -19,7 +19,7 @@ export class AddUtilisateurComponent {
       email  :"",
       phone :"",
       date : "",
-      number: "",
+      number: ""
      
   };
 
@@ -46,6 +46,7 @@ export class AddUtilisateurComponent {
       this.objetEtudiant.email = this.email
       this.objetEtudiant.username = this.username
       this.objetEtudiant.date = this.date
+      this.objetEtudiant.phone = this.phone
 
 
       this.servicesEtudient.saveEtudiant(this.objetEtudiant).subscribe((result)=>{

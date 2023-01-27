@@ -60,7 +60,7 @@
       "id": 9,
       "name": "ablaye",
       "email": "daoudathiam95@gmail.com",
-      "phone": "",
+      "phone": "78898897",
       "number": "781102332",
       "date": "02-12-2123",
       "username": "thiam"
@@ -69,7 +69,7 @@
       "id": 10,
       "name": "daouda",
       "email": "nawa70927@gmail.com",
-      "phone": "",
+      "phone": "67687879",
       "number": "781103232",
       "date": "09-12-1233",
       "username": "thiam"
@@ -78,10 +78,28 @@
       "id": 11,
       "name": "pascal",
       "email": "pascall-corea@gmail/com",
-      "phone": "",
+      "phone": "687879799",
       "number": "781229321",
       "date": "09-12-2021",
       "username": "correa"
+    },
+    {
+      "id": 12,
+      "name": "dave",
+      "username": "thiam",
+      "email": "Daoudathiam95@gmail.com",
+      "phone": "8798980808",
+      "date": "09-12-2123",
+      "number": "8779898"
+    },
+    {
+      "id": 13,
+      "name": "dave",
+      "username": "thiam",
+      "email": "Daoudathiam95@gmail.com",
+      "phone": "iuooioio",
+      "date": "09-12-2123",
+      "number": "6977080808"
     }
   ]
 }
